@@ -147,6 +147,14 @@ test("Moving Average", function() {
   deepEqual( _.movingAvg([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 3), [2, 3, 4, 5, 6, 7, 8, 9]);
 });
 
+test("Round", function() {
+  expect(4);
+  equal( _.round(12345.6789, 1), 12345.7);
+  equal( _.round(12345.6789, 2), 12345.68);
+  equal( _.round(12345.6, 2), 12345.6);
+  equal( _.round(12345, 2), 12345);
+});
+
 });
 </script>
 </head>

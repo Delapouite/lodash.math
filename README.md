@@ -11,6 +11,7 @@ It's based on [underscore.math](https://github.com/Delapouite/underscore.math) w
 - median
 - movingAverage
 - power
+- round
 - scale
 - slope
 - sort
