@@ -76,7 +76,7 @@
       arr = obj;
     } else {
       key = key || 'value';
-      arr = _.pluck(obj, key);
+      arr = _.map(obj, key);
     }
     var val = 0, i;
     for (i = 0; i < arr.length; i++)
@@ -114,7 +114,7 @@
       arr = obj;
     } else {
       key = key || 'value';
-      arr = _.pluck(obj, key);
+      arr = _.map(obj, key);
     }
 
     var mean = _.mean(arr),
